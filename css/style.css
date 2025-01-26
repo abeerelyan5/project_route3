@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:"Alegreya";
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+#navbar img{
+  width: 200px;
+  margin-left: 100px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+
+}
+p.text{
+    color: #fff;
+}
+header{
+    height: 100vh;
+    background: url(./images/drew-coffman-1872.jpg) center center/cover no-repeat;
+}
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+#navbar ul li a{
+    padding: 15px 20px;
+    color: #fff;
+    font-weight: 600;
+}
+#navbar ul li a:hover{
+    border-bottom: 2px solid #937c3e ;
+  
+}
+.content p .text{
+    color: #fff;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    line-height: 1.6;
+}
+.content h1 , h2 , p {
+    color: #fff;
+}
+.content h1{
+    font-size: 20px;
+}
+.content h2{
+    font-size: 60px;
+}
+.content p{
+    font-size: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+.btn-primary{
+ color: #fff;
+ border: 1px solid #fff;
+}
+.btn-primary:hover{
+    background-color: #7d5f0c;
+}
+#about{
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+}
+#about .about-content img{
+    width: 550px;
+}
+#about .about-content h2{
+    color: rgb(78, 77, 77);
+    margin: 4rem;
+}
+#about .about-content p{
+    color: rgb(74, 74, 74);
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#Gallery{
+    background-color: rgb(231, 231, 229);
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+#Gallery .gallery-content{
+    display: flex;
+    justify-content: space-between;
+}
+#Gallery .gallery-content img{
+    width: 550px;
+}
+#Gallery .gallery-content h2{
+    color: rgb(78, 77, 77);
+    margin: 4rem;
+}
+#Gallery .gallery-content p{
+    color: rgb(74, 74, 74);
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog{
+    text-align: center;
+}
+.blog h2 , p{
+    text-align: center;
+    margin:40px;
+    color: rgb(74, 74, 74);
+    
+}
+#Blog .blog-itme{
+    float: left;
+    width: 33.33%;
+    padding: 5%;
+}
+.blog::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.blog-itme img{
+    width: 350px; ;
+}
+p.block{
+    color: #fff;
+}
+#contact{
+    background-color: rgb(231, 231, 229);
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+#contact .contact-content{
+        display: flex;
+        justify-content: space-between;
+}
+#contact .contact-content h2{
+    color: rgb(78, 77, 77);
+    margin: 4rem;
+}
+#contact .contact-content img{
+    width: 500px;
+}
+#footer{
+    background-color: rgb(94, 91, 82);
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#footer .aboutus{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .aboutus h3{
+    color:#fff;
+    margin: 4rem;
+}    
+
+
+
+
+
